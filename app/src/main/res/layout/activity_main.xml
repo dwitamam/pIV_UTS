@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="45dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="RUMAH SAKIT di KOTA MATARAM" />
+
+            <TextView
+                android:id="@+id/tvRsudKotaMataram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RSUD Kota Mataram" />
+
+            <ImageView
+                android:id="@+id/ivRsudKota"
+                android:layout_width="263dp"
+                android:layout_height="199dp"
+                android:scaleType="center"
+                app:srcCompat="@drawable/a1rsudkotamataram" />
+
+            <TextView
+                android:id="@+id/tv1informasi"
+                android:layout_width="362dp"
+                android:layout_height="177dp"
+                android:layout_marginTop="28dp"
+                android:text="Rumah Sakit Umum Daerah Kota Mataram merupakan Rumah Sakit milik Pemerintah Kota Mataram. Luas lahan 20.473 m2. Mulai operasional sejak Maret 2010 berdasarkan Surat Keputusan Walikota Nomor : 163/II/2010 tentang Izin Penyelenggaraan Operasional Pelayanan. Sejak 1 Desember 2010, RSUD Kota Mataram menerapkan pola pengelolaan keuangan Badan Layanan Umum Daerah (BLUD), berdasarkan SK Walikota Mataram No 565/XII/2010" />
+
+            <TextView
+                android:id="@+id/tvRsGrahaUltimaMedika"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RS GRAHA ULTIMA MEDIKA" />
+
+            <ImageView
+                android:id="@+id/ivGrahaUltimaMedika"
+                android:layout_width="339dp"
+                android:layout_height="268dp"
+                app:srcCompat="@drawable/a2rsgrahaultimamedika" />
+
+            <TextView
+                android:id="@+id/tvKeteranganRsGrahaUltimaMedika"
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                android:text="Rumah Sakit Grha Ultima Medika (Mataram) is a private general hospital located in Mataram City, Lombok Island, West Nusa Tenggara Province. The hospital provides a wide range of medical services, supported with the state-of-the-art medical equipment and an experienced team of medical professionals, with an aim to reduce the morbidity and mortality rates as well as patient referral rates to other areas." />
+
+            <TextView
+                android:id="@+id/tvRsSitiHajar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RS Siti Hajar " />
+
+            <ImageView
+                android:id="@+id/ivSitiHajar"
+                android:layout_width="261dp"
+                android:layout_height="275dp"
+                app:srcCompat="@drawable/a3rssitihajar" />
+
+            <TextView
+                android:id="@+id/tvKeteranganRsSitiHajar"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:text="Menyelenggarakan pelayanan kesehatan yang Islami Meningkatkan mutu Sumber Daya Manusia Rumah Sakit Mengembangkan sarana dan prasarana Rumah Sakit demi kenyamanan pasien dan petugas" />
+
+            <TextView
+                android:id="@+id/tvRsHarapanKeluarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RS HARAPAN KELUARGA" />
+
+            <ImageView
+                android:id="@+id/ivHarapanKeluarga"
+                android:layout_width="294dp"
+                android:layout_height="199dp"
+                app:srcCompat="@drawable/a4rsharapankeluarga" />
+
+            <TextView
+                android:id="@+id/tvKeteranganRSHK"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:text="Harapan Keluarga Hospital is a class C private hospital that started operating since 24th November 2011. Harapan Keluarga Hospital is located in Jl. Ahmad Yani No. 9 Selagalas, Mataram – Post Code 83237 West Nusa Tenggara." />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RSK ANTONIUS" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="329dp"
+                android:layout_height="370dp"
+                android:cropToPadding="true"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/a5rskantonius" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RSK. St. Antonius Ampenan adalah karya kerasulan Gereja dan lembaga kesehatan non profit yang menjunjung tinggi martabat manusia, menghormati dan membela kehidupan sejak dini (pembuahan) berdasarkan nilai-nilai, moral dan spiritualitas Katolik, Pancasila dan mau bekerjasama secara profesional dengan semua pihak yang berkehendak baik demi melayani, meningkatkan dan membangun derajat kesehatan masyarakat dan kesejahteraan karyawannya" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
